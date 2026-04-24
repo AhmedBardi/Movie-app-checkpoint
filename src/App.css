@@ -1,0 +1,9 @@
+/* Movies.css */
+.movie-container {
+  display: flex;         /* The magic line for horizontal layout */
+  flex-direction: row;  /* Ensures they sit side-by-side */
+  flex-wrap: wrap;       /* Wraps them to a new line if the screen is too small */
+  gap: 20px;            /* Adds nice spacing between cards */
+  padding: 20px;
+}
+
