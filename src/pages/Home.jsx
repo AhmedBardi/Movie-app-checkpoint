@@ -23,9 +23,9 @@ const Home = () => {
             <Rating searchRate={searchRate} setSearchRate={setSearchRate} isRating={false}/>
             <AddMovie addNewMovie={addNewMovie}/>
             <hr />
-            <div className="movie-container">  
-            <MovieList movies={movies} searchTitle={searchTitle} searchRate={searchRate}/>
-            </div>   
+            
+            <MovieList movies={movies} searchTitle={searchTitle} searchRate={searchRate} />
+             
         </div>
             );
 };

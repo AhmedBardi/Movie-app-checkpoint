@@ -1,12 +1,12 @@
 import React from "react";
 import MovieCard from "./MovieCard";
-import '../App.css';
+import './movieList.css'
 
 
 const MovieList = ({ movies, searchTitle, searchRate}) => { 
     return (
         
-        <div>
+        <div className="movie-container ">
             
             {movies
             .filter(movie => movie.title.toUpperCase().includes(searchTitle.toUpperCase())
